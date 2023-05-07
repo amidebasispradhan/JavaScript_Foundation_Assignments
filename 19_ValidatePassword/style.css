@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f2f5;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+.loginCard {
+  width: 30vw;
+  min-width: 396px;
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginForm {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 10px 0 24px 0;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 15px;
+}
+input {
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  font-size: 1.25rem;
+}
+input:focus {
+  border: 1.5px solid #1877f2;
+}
+button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: transparent;
+  outline: none;
+  background-color: #1877f2;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.log {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1877f2;
+}
+.smallLog {
+  font-size: 1.15rem;
+  color: #052653;
+  margin: -10px 0;
+}

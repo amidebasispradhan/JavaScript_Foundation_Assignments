@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bill Splitter</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="billTakingCard">
+      <div class="billTaking">
+        <p class="log">💳 Bill Splitter</p>
+        <div class="addDishes">
+          <input
+            type="number"
+            placeholder="Cost of each dish"
+            class="costOfDishes"
+            autofocus
+          />
+          <button class="billingBtn addCostOfDishesBtn">Add It To Bill</button>
+        </div>
+        <div class="addPersons">
+          <input
+            type="number"
+            placeholder="No. of people(s)"
+            class="noOfPeoples"
+          />
+          <button class="billingBtn addNoOfPeoplesBtn">
+            Now Split The Bill
+          </button>
+        </div>
+        <button class="billingBtn clearAllBtn">Clear All</button>
+      </div>
+    </div>
+    <div class="billShowingCard">
+      <div class="billShowing">
+        <p class="log">Splitting Bills 💳</p>
+        <div class="displayBills">
+          <p class="smallLog">Cost of Dishes:</p>
+          <p class="billListText costOfDishesList"></p>
+          <p class="smallLog">No. of People(s):</p>
+          <p class="billListText addPersonsList"></p>
+          <p class="smallLog">Bill Summary:</p>
+          <p class="billListText billSummary"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #07cd98, #fff);
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.cRcCard,
+.cRcShow {
+  width: 30vw;
+  min-width: 300px;
+  min-height: 300px;
+  margin-top: -100px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cRc,
+.cRcLog {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+input[type="number"],
+button {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 2px solid #20b2aa;
+}
+.log {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #0a2a5a;
+}
+.rentalBtn {
+  color: #fff;
+  background-color: #07b083;
+  border: transparent;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.rentalBtn:hover {
+  background-color: #15afc1;
+}
+input:focus {
+  box-shadow: 0 0 5px #20b2aa;
+  border-color: #1b918b;
+  outline: none;
+}
+.chooseCar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carType {
+  display: none;
+}
+.carType + label {
+  font-size: 1.15rem;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #eee;
+  color: #333;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.carType:checked + label {
+  color: #fff;
+  background-color: #20b2aa;
+}
+.cRcMsg {
+  color: #cd073c;
+}

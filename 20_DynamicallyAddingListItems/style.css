@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #fbfeff;
+}
+h1 {
+  font-size: 1.8125rem;
+  font-weight: 600;
+  color: #1b2124;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+ul {
+  list-style: none;
+  font-weight: 500;
+  color: #3d3d3d;
+  line-height: 26px;
+}
+.arrow {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 900;
+  margin-right: 20px;
+}
+ul li {
+  margin-bottom: 5px;
+}
+.listCard {
+  background-color: #fff;
+  min-width: 30vw;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px #0000001a;
+  margin-bottom: 100px;
+}
+.itemsCard {
+  width: 80%;
+  margin: 30px 0;
+}
+.addItemsBtn {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: transparent;
+  background-color: #1877f2;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 20px;
+  box-shadow: 0px 2px 10px #0000001a;
+  outline: none;
+  margin-bottom: 100px;
+}
+.log {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #dc143c;
+}

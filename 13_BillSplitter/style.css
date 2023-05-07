@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0f0f;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.billTakingCard,
+.billShowingCard {
+  width: 30vw;
+  min-height: 300px;
+  margin-top: -50px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.billTaking,
+.billShowing {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  margin: 20px 0;
+  gap: 20px;
+}
+.addDishes,
+.addPersons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+}
+input,
+button {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 2px solid #0a8881;
+}
+input:focus {
+  box-shadow: 0 0 5px #0a8881;
+  border-color: #0a8881;
+  outline: none;
+}
+.billingBtn {
+  color: #fff;
+  border: transparent;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.addCostOfDishesBtn {
+  background-color: #ec9508;
+}
+.addNoOfPeoplesBtn {
+  background-color: #fb641b;
+}
+.clearAllBtn {
+  background-color: #321659;
+}
+.log {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  border: transparent;
+  color: #0a2a5a;
+}
+.displayBills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.smallLog {
+  width: 100%;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #333;
+  padding-bottom: 10px;
+  border-bottom: 2px dashed #000;
+}
+.billListText {
+  width: 100%;
+  text-align: end;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+}
+.billShowingCard {
+  min-width: fit-content;
+}

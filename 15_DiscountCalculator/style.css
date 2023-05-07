@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #ddd;
+}
+.discountCard {
+  width: 30vw;
+  min-width: 350px;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: -100px;
+  position: relative;
+}
+.discountContent {
+  width: 87%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+}
+.inputFields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputFields input {
+  display: inline-block;
+  width: 48%;
+  margin-right: 4%;
+}
+.inputFields input:last-child {
+  margin-right: 0;
+}
+
+input[type="number"] {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 2px solid #058d8d;
+  outline: none;
+  font-size: 0.825rem;
+}
+
+input[type="number"]:focus {
+  box-shadow: 0 0 5px #058d8d;
+}
+
+button {
+  font-size: 1.1rem;
+  padding: 8px 0;
+  border-radius: 15px;
+  color: #fff;
+  background-color: #0c707d;
+  border: none;
+  cursor: pointer;
+}
+
+.clearBtn {
+  background-color: #035a03;
+}
+
+.log {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.discountPercent {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 100px;
+  height: 100px;
+  background-color: #e61c38;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

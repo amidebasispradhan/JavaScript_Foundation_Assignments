@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discount Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="discountCard">
+      <div class="discountPercent">
+        <p class="log discountLog">% Off</p>
+      </div>
+      <div class="discountContent">
+        <p class="log">🔖 Discount Calculator</p>
+        <div class="inputFields">
+          <input
+            type="number"
+            placeholder="Original Price"
+            class="originalPrice"
+            autofocus
+          />
+          <input
+            type="number"
+            placeholder="Discounted Price"
+            class="discountedPrice"
+          />
+        </div>
+        <button class="discountCalcBtn">Calculate</button>
+        <button class="clearBtn">Clear</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

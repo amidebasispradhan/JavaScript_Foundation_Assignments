@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate Rental Cost</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="cRcCard">
+      <div class="cRc">
+        <p class="log">🚘 Car Rental Company 🏦</p>
+
+        <div class="chooseCar">
+          <input type="radio" name="car" id="economy" class="carType" />
+          <label for="economy">Economy</label>
+          <input type="radio" name="car" id="midsize" class="carType" />
+          <label for="midsize">Midsize</label>
+          <input type="radio" name="car" id="luxury" class="carType" />
+          <label for="luxury">Luxury</label>
+        </div>
+
+        <input
+          type="number"
+          placeholder="Days rented for"
+          class="days"
+          autofocus
+        />
+
+        <button class="rentalBtn">Calculate Car Rental Cost</button>
+      </div>
+    </div>
+    <div class="cRcShow">
+      <div class="cRcLog">
+        <p class="log">🚘 Car Rental Cost 💰</p>
+        <div class="displayMsg">
+          <p class="log cRcMsg">Calculating...</p>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

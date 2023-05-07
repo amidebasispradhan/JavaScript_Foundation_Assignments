@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.changeColorBtn {
+  cursor: pointer;
+  font-size: 1.825rem;
+  font-weight: 500;
+  color: #333;
+  padding: 15px 20px;
+  border-radius: 20px;
+  border: transparent;
+  outline: none;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  transition: 0.1s ease-in;
+}
+.changeColorBtn:hover {
+  transition: 0.1s ease-in;
+  transform: scale(1.05);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}

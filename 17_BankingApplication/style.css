@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #eff2f5, #c5d3e4);
+  font-family: Georgia, Times, "Times New Roman", serif;
+  gap: 30px;
+  position: relative;
+}
+.depositCard,
+.withdrawCard,
+.detailsCard,
+.nameCard {
+  width: 30vw;
+  min-width: fit-content;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  gap: 30px;
+}
+.depositContent,
+.withdrawContent,
+.detailsContent,
+.nameContent {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 50px;
+}
+
+.log {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0a2a5a;
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+input[type="number"],
+input[type="text"] {
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  border: 2px solid #06a452;
+  outline: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+input[type="number"]:focus,
+input[type="text"]:focus {
+  box-shadow: 0 0 3px #006410;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 0;
+  border-radius: 15px;
+  border: transparent;
+  background-color: #006410;
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  outline: none;
+}
+
+.withdrawContent input[type="number"] {
+  border: 2px solid #b84116;
+}
+.withdrawContent input[type="number"]:focus {
+  box-shadow: 0 0 3px #ff4500;
+}
+.withdrawBtn {
+  background-color: #ff4500;
+}
+
+.nameContent input[type="text"] {
+  border: 2px solid #da7f0f;
+}
+.nameContent input[type="text"]:focus {
+  box-shadow: 0 0 3px #ff8c00;
+}
+.nameBtn {
+  background-color: #ff8c00;
+}
+
+.smallLog {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #021a3e;
+}
+
+.detailsContent {
+  flex-direction: row;
+}
+.detailsContent p {
+  margin-bottom: 10px;
+}
+.detailsContent p:last-child {
+  margin-bottom: 0;
+}
+
+.detailsCard {
+  min-width: 380px;
+}

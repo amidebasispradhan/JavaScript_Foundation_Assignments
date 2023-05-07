@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banking Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="nameCard">
+      <p class="log">🏦 Create Account</p>
+      <div class="nameContent">
+        <input
+          type="text"
+          placeholder="Customer Name"
+          class="customerName"
+          autofocus
+        />
+        <button class="nameBtn">Create</button>
+      </div>
+    </div>
+    <div class="depositCard">
+      <p class="log">💰 Money Deposit</p>
+      <div class="depositContent">
+        <input type="number" placeholder="Amount in INR" class="deposit" />
+        <button class="depositBtn">Deposit</button>
+      </div>
+    </div>
+    <div class="withdrawCard">
+      <p class="log">💸 Money Withdraw</p>
+      <div class="withdrawContent">
+        <input type="number" placeholder="Amount in INR" class="withdraw" />
+        <button class="withdrawBtn">Withdraw</button>
+      </div>
+    </div>
+    <div class="detailsCard">
+      <p class="log">📒 Account Details</p>
+      <div class="detailsContent">
+        <div class="">
+          <p class="smallLog">Customer Name:</p>
+          <p class="smallLog">Balance:</p>
+        </div>
+        <div class="">
+          <p class="smallLog nameDetails"></p>
+          <p class="smallLog balanceDetails"></p>
+        </div>
+      </div>
+      <p class="smallLog transactionComment"></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  width: 30vw;
+  min-width: 300px;
+  height: 40vh;
+  min-height: 300px;
+  margin-top: -100px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease-in;
+}
+.card:hover {
+  transition: 0.2s ease-in;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.passwordForm {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+}
+input,
+.log {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 1px solid #20b2aa;
+  outline-color: #1b918b;
+}
+.log {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  border: transparent;
+}
+.submitPass {
+  color: #fff;
+  background-color: #009846;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.submitPass:hover {
+  transition: 0.2s ease-in;
+  background-color: #02612e;
+}
